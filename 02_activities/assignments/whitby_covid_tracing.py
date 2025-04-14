@@ -32,6 +32,7 @@ def simulate_event(m):
   - A tuple containing the proportion of infections and the proportion of traced cases
     that are attributed to weddings.
   """
+
   # Create DataFrame for people at events with initial infection and traced status
   events = ['wedding'] * 200 + ['brunch'] * 800
   ppl = pd.DataFrame({
@@ -44,6 +45,7 @@ def simulate_event(m):
   ppl['traced'] = ppl['traced'].astype(pd.BooleanDtype())
 
   # Infect a random subset of people
+  
   infected_indices = np.random.choice(ppl.index, size=int(len(ppl) * ATTACK_RATE), replace=False)
   ppl.loc[infected_indices, 'infected'] = True
 
@@ -68,6 +70,7 @@ def simulate_event(m):
   return p_wedding_infections, p_wedding_traces
 
 # Run the simulation 1000 times
+np.random.seed(0) ## Set random seed for reproducibility (question 4)
 results = [simulate_event(m) for m in range(1000)]
 props_df = pd.DataFrame(results, columns=["Infections", "Traces"])
 
