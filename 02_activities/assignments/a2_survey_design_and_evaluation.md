@@ -40,30 +40,79 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `3`
 
 Describe the purpose of your survey:
-```
-write your answer here...
-```
+
+This survey aims to investigate the relationship between age and music taste preferences, with a particular focus on how perceptions of popular music differs across age groups. The research seeks to determine the influence of age on music preferences and how these preferences evolve throughout an individual's lifetime.
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
-```
+Target Population: Youth and adults in the Greater Toronto Area.
+
+Sampling Frame: Student and faculty databases of universities, colleges, primary, and secondary schools in the GTA. Minor participants will be selected from classrooms that have permission and assistance from administrators, parents, and teachers. 
+
+Sampling Units: Individuals capable of responding to questions about their past and present music preferences.
+
+Sampling Strategy: Stratified random sampling approach where participants are divided into age strata of 5 year intervals (11-15, 16-20, 21-25, and so on up to 65, and a 66+ group) with random selection within each stratum to ensure adequate representation across all age groups. This will enable both cross-sectional analysis between different age groups and retrospective longitudinal insights from individuals. All respondents will be asked to repeat the survey every year and longitudinal data will be collected from willing participants up to 5 years later. 
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. What is your current age?
+
+2. How would you rate the following music genres? 
+(Rate from 1-5, where 1 = strongly dislike and 5 = strongly enjoy)
+   - Pop music
+   - Rock
+   - Hip-hop/Rap
+   - Electronic/Dance
+   - Country
+   - Classical
+   - Jazz
+   - R&B
+   - Other (please specify)
+
+3. How would you describe your attitude toward current popular music (music in the top 40 charts)? 
+(Single choice)
+   - Very positive - I enjoy most current popular music
+   - Somewhat positive - I enjoy some current popular music
+   - Neutral - I have no strong feelings about current popular music
+   - Somewhat negative - I dislike some current popular music
+   - Very negative - I dislike most current popular music
+
+4. How do you typically discover new music? 
+(Multiple choice)
+   - Social media (TikTok, Instagram, etc.)
+   - Streaming service recommendations
+   - Friends and family
+   - Radio
+   - Live music venues
+   - Other (please specify)
+
+5. Which formats do you primarily use to listen to music? 
+(Multiple choice)
+   - Streaming services (e.g., Spotify, Apple Music)
+   - Digital downloads
+   - CDs/physical albums
+   - Vinyl records
+   - Radio
+   - Other (please specify)
+
+6. How important is music to your daily life? 
+(5-point scale from Not at all important (1) to Very important (5))
+
+7. [For participants 16 and older] Thinking back to when you were younger (5 years ago), how would you describe your attitude toward the popular music of that time?
+(Single choice)
+   - Very positive - I enjoyed most popular music at the time
+   - Somewhat positive - I enjoyed some popular music at the time
+   - Neutral - I had no strong feelings about popular music at the time
+   - Somewhat negative - I disliked some popular music at the time
+   - Very negative - I disliked most popular music at the time
+
+8. [For participants 16 and older] To what extent do you agree with the statement: "I prefer music from when I was younger over current popular music." 
+(5-point scale from Strongly Disagree (1) to Strongly Agree (5))
+
+9. [For participants in second or later survey years] How do you think your music preferences have changed since last year's survey? (Open-ended)
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +120,72 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: 
+Probability sample using a stratified multi-stage sampling design. The GSS used random digit dialing (RDD) and an area frame to select groups of households (ie. telephone numbers) from regionally defined strata, with one person aged 15 years or older randomly selected within each household.
+
+2. Sample size:
+The final sample consisted of 16,149 Canadians aged 15 years and older (not living in institutions).
+
+3. Target population:
+The target population was all persons 15 years of age and older in Canada, excluding residents of the Yukon, Northwest Territories, and Nunavut, and full-time residents of institutions.
+
+4. Sampling frame:
+Two overlapping frames were used:
+- An area frame of geographic clusters from the 2016 Census of Population
+- A list frame of telephone numbers from various administrative sources
+This dual-frame approach helped mitigate coverage issues with telephone-only sampling methods.
+
+5. Survey mode(s):
+The primary collection method was self-completed online questionairres (rEQ) and Computer Assisted Telephone Interviewing (iEQ).
+
+6. Timeline:
+Data collection took place from September 4 2018 to December 28 2019.
+
+7. Response rate:
+The overall response rate was 41.9%.
+
+8. Weights:
+Survey weights were calculated to ensure the sample represents the target population accurately. The weighting procedure involved several steps: 
+1. initial weights based on selection probabilities from both sampling frames were calculated
+2. adjustments for non-response were applied based on demographic characteristics
+3. household weights were converted to person weights accounting for household size
+4. and a final calibration to known population totals from demographic projections was performed using post-stratification by age, gender, and geographic region
+Bootstrap weights were also provided to enable variance estimation for complex statistics.
+
+8. Weights:
+Survey weights were calculated to ensure the sample represents the target population. The weighting process accounted for:
+- Selection probabilities
+- Household size
+- Non-response adjustments
+- Calibration to known population totals from demographic projections
+
+9. Data processing:
+Data processing included coding of open-ended questions, creation of derived variables, and verification of data consistency. Processing occurred primarily at Statistics Canada headquarters using standardized procedures.
+
+10. Cleaning, imputation, etc:
+Data cleaning included:
+- Edits for valid ranges and flow patterns
+- Consistency edits
+- Limited imputation for key variables with non-response
+- Some data suppression where confidentiality issues existed
+
+11. Sources of error:
+Both sampling and non-sampling errors were identified:
+- Sampling errors: Inherent in any sample-based measurement
+- Non-sampling errors: Coverage errors, measurement errors, non-response bias, and processing errors
+- For key estimates, coefficients of variation were calculated to quantify sampling error
+
+12. Limitations, known biases, etc:
+- Under-representation of individuals without telephones or with cell phones only
+- Potential non-response bias, particularly among younger demographics
+- Social desirability bias in self-reported volunteering and charitable giving
+- Under-coverage of recent immigrants and some linguistic minorities
+- Recall bias when respondents report on activities from previous 12 months
+
+13. Link to documentation and any additional sources used:
+- Statistics Canada. (2020). General Social Survey - Giving, Volunteering and Participating (GSS GVP): Detailed information for 2018 (Cycle 33). https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=4430
+- Statistics Canada. (2019). General Social Survey, Cycle 33, 2018: Giving, Volunteering and Participating (GSS GVP) - User Guide. https://hdl.handle.net/11272.1/AB2/GBFDYG/FF7L7T
+- Statistics Canada. (2019). Methodology of the Canadian General Social Survey. https://www150.statcan.gc.ca/n1/pub/89f0115x/89f0115x2019001-eng.htm
 ```
 
 ## Rubric
