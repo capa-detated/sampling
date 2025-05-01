@@ -152,12 +152,6 @@ Survey weights were calculated to ensure the sample represents the target popula
 4. and a final calibration to known population totals from demographic projections was performed using post-stratification by age, gender, and geographic region
 Bootstrap weights were also provided to enable variance estimation for complex statistics.
 
-8. Weights:
-Survey weights were calculated to ensure the sample represents the target population. The weighting process accounted for:
-- Selection probabilities
-- Household size
-- Non-response adjustments
-- Calibration to known population totals from demographic projections
 
 9. Data processing:
 Data processing included coding of open-ended questions, creation of derived variables, and verification of data consistency. Processing occurred primarily at Statistics Canada headquarters using standardized procedures.
